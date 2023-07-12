@@ -47,7 +47,7 @@ const cards1 = [
     )
   },
   {
-    title: "This Website",
+    title: "Quant @ Illinois Website",
     stack: [
       (<FaReact className="text-8xl text-white mx-2" />),
       (<SiTailwindcss className="text-8xl text-white mx-2" />),
@@ -60,6 +60,7 @@ const cards1 = [
         <li className='text-2xl text-center my-2'> - Animations and keyframes done with Framer Motion library</li>
         {/* <li className='text-xl text-center my-2'> - Wrote a math cheat sheet along with the project to explain gradient descent in a simple, digestible way</li> */}
       </ul>
+      <a className="group text-black text-2xl cursor-pointer transition-all duration-500 mt-3" href="https://www.quantillinois.com">Link<BsArrowUpRight className='inline'/><span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-black'></span></a>
       </>
     )
   },
