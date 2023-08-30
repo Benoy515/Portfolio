@@ -15,7 +15,7 @@ export default function Contact() {
           animate={{ opacity: 1 , x: 0}}
           transition={{duration: 1, delay: .5}}>
             <AiFillGithub className='text-white text-4xl me-3'/>
-            <a className="group text-white text-2xl cursor-pointer transition-all duration-500" href="https://github.com/Benoy515">github.com/benoy515<span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white'></span></a>
+            <a className="group text-white md:text-lg lg:text-xl xl:text-2xl cursor-pointer transition-all duration-500" href="https://github.com/Benoy515">github.com/benoy515<span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white'></span></a>
           </motion.div>
 
           <motion.div className="flex"
@@ -23,7 +23,7 @@ export default function Contact() {
           animate={{ opacity: 1 , x: 0}}
           transition={{duration: 1, delay: .75}}>
             <AiFillLinkedin className='text-white text-4xl me-3'/>
-            <a className="group text-white text-2xl cursor-pointer transition-all duration-500" href="https://www.linkedin.com/in/abhay-benoy">linkedin.com/in/abhay-benoy<span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white'></span></a>
+            <a className="group text-white md:text-lg lg:text-xl xl:text-2xl cursor-pointer transition-all duration-500" href="https://www.linkedin.com/in/abhay-benoy">linkedin.com/in/abhay-benoy<span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white'></span></a>
           </motion.div>
 
           <motion.div className="flex"
@@ -31,7 +31,7 @@ export default function Contact() {
           animate={{ opacity: 1 , x: 0}}
           transition={{duration: 1, delay: 1}}>
             <AiFillMail className='text-white text-4xl me-3'/>
-            <a className="group text-white text-2xl cursor-pointer transition-all duration-500" href="mailto:abhayb2@illinois.edu">abhayb2@illinois.edu<span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white'></span></a>
+            <a className="group text-white md:text-lg lg:text-xl xl:text-2xl cursor-pointer transition-all duration-500" href="mailto:abhayb2@illinois.edu">abhayb2@illinois.edu<span className='block max-w-0 ms-[50%] group-hover:ms-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white'></span></a>
           </motion.div>
         </div>
         </div>

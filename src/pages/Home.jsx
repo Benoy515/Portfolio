@@ -12,8 +12,8 @@ export default function Home() {
         initial={{ opacity: 0 , y: -100}}
         animate={{ opacity: 1 , y: 0}}
         transition={{duration: 1, delay: .5}}>
-          <h1 className="text-white text-[20vh] leading-tight">Hi! I'm</h1>
-          <h1 className="text-white text-[20vh] leading-tight"><span className="bg-white text-black">Abhay</span>Benoy</h1>
+          <h1 className="text-white text-8xl lg:text-9xl xl:text-[20vh] leading-tight">Hi! I'm</h1>
+          <h1 className="text-white text-8xl lg:text-9xl xl:text-[20vh] leading-tight"><span className="bg-white text-black">Abhay</span>Benoy</h1>
         </motion.div>
         
         <div className="flex ms-24 pb-24 justify-between">
@@ -21,16 +21,16 @@ export default function Home() {
           initial={{ opacity: 0 , x: -100}}
           animate={{ opacity: 1 , x: 0}}
           transition={{duration: 1, delay: .75}}>
-            <h2 className="text-white text-4xl leading-tight">Computer Science and Economics</h2>
-            <h2 className="text-black bg-white text-4xl leading-tight">University of Illinois at Urbana-Champaign</h2>
+            <h2 className="text-white text-xl lg:text-2xl xl:text-3xl leading-tight">Computer Science and Economics</h2>
+            <h2 className="text-black bg-white text-xl lg:text-2xl xl:text-3xl leading-tight">University of Illinois at Urbana-Champaign</h2>
           </motion.div>
 
           <motion.div className="pe-24"
           initial={{ opacity: 0 , y: 50}}
           animate={{ opacity: 1 , y: 0}}
           transition={{duration: 1, delay: 1}}>
-            <h2 className="text-black text-4xl leading-tight">`</h2>
-            <a className="group text-white text-4xl leading-tight cursor-pointer transition-all duration-500" href='https://docs.google.com/document/d/1XNasiMB2pQxMYg6iOU9rWfSm-mKl-WnGxtK1HE89a-E/edit'>My Resume<span><BsArrowUpRight className='inline'/></span><span className='block max-w-0 ms-[50%] group-hover:max-w-full group-hover:ms-0 transition-all duration-300 h-0.5 bg-white'></span></a>
+            <h2 className="text-black text-xl lg:text-2xl xl:text-4xl leading-tight">`</h2>
+            <a className="group text-white text-2xl xl:text-4xl leading-tight cursor-pointer transition-all duration-500" href='https://docs.google.com/document/d/1XNasiMB2pQxMYg6iOU9rWfSm-mKl-WnGxtK1HE89a-E/edit'>My Resume<span><BsArrowUpRight className='inline'/></span><span className='block max-w-0 ms-[50%] group-hover:max-w-full group-hover:ms-0 transition-all duration-300 h-0.5 bg-white'></span></a>
           </motion.div>
         </div>
     </div>
