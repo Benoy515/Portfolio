@@ -8,7 +8,7 @@ export default function Experience() {
     return (
       <div className="h-screen bg-black relative">
         <div className="flex">
-          <h1 className="text-black bg-white text-9xl py-5 px-7 rounded-br-xl">Experience</h1>
+          <h1 className="text-black bg-white text-7xl lg:text-8xl xl:text-9xl py-5 px-7 rounded-br-xl">Experience</h1>
         </div>
         
         <div className="flex justify-center mt-10">

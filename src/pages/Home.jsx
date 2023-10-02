@@ -12,8 +12,8 @@ export default function Home() {
         initial={{ opacity: 0 , y: -100}}
         animate={{ opacity: 1 , y: 0}}
         transition={{duration: 1, delay: .5}}>
-          <h1 className="text-white text-8xl lg:text-9xl xl:text-[20vh] leading-tight">Hi! I'm</h1>
-          <h1 className="text-white text-8xl lg:text-9xl xl:text-[20vh] leading-tight"><span className="bg-white text-black">Abhay</span>Benoy</h1>
+          <h1 className="text-white text-[16vh] lg:text-[18vh] xl:text-[20vh] leading-tight">Hi! I'm</h1>
+          <h1 className="text-white text-[16vh] lg:text-[18vh] xl:text-[20vh] leading-tight"><span className="bg-white text-black">Abhay</span>Benoy</h1>
         </motion.div>
         
         <div className="flex ms-24 pb-24 justify-between">

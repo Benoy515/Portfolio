@@ -6,7 +6,7 @@ export default function Contact() {
     return (
       <div className="h-screen bg-black z-10 relative">
         <div className="flex">
-          <h1 className="text-black bg-white text-9xl py-5 px-7 rounded-br-xl">Contact</h1>
+          <h1 className="text-black bg-white text-7xl lg:text-8xl xl:text-9xl py-5 px-7 rounded-br-xl">Contact</h1>
         </div>
         <div className="flex flex-col h-3/5 justify-center">
         <div className="flex justify-around">

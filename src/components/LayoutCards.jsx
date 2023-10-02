@@ -5,7 +5,7 @@ import {cards} from "../assets/projects.jsx"
 
 function IconWrapper({children}) {
   return (
-    <div className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white mx-2">
+    <div className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mx-2">
       {children}
     </div>
   )
@@ -15,10 +15,10 @@ export default function LayoutCards() {
   const [selectedId, setSelectedId] = useState(-1);
 
   let openedCard = "bg-white rounded-xl py-5 h-auto min-h-[50vh] w-[40rem] absolute bottom-48 right-0 left-0 m-auto z-20 flex justify-center flex-wrap flex-col"// transition-all duration-500";
-  let firstCard = "bg-black border border-white rounded-2xl h-[30vh] w-full cursor-pointer col-span-3 col-start-1"//transition-all duration-500";
-  let secondCard = "bg-black border border-white rounded-2xl h-[30vh] cursor-pointer col-span-2 col-start-4"// transition-all duration-200";
-  let thirdCard = "bg-black border border-white rounded-2xl h-[30vh] cursor-pointer col-span-2 col-start-1 row-start-2"// transition-all duration-500";
-  let fourthCard = "bg-black border border-white rounded-2xl h-[30vh] cursor-pointer col-span-3 col-start-3 row-start-2"// transition-all duration-500";
+  let firstCard = "bg-black border border-white rounded-2xl min-h-[27vh] w-full cursor-pointer col-span-3 col-start-1"//transition-all duration-500";
+  let secondCard = "bg-black border border-white rounded-2xl min-h-[27vh] cursor-pointer col-span-2 col-start-4"// transition-all duration-200";
+  let thirdCard = "bg-black border border-white rounded-2xl min-h-[27vh] cursor-pointer col-span-2 col-start-1 row-start-2"// transition-all duration-500";
+  let fourthCard = "bg-black border border-white rounded-2xl min-h-[27vh] cursor-pointer col-span-3 col-start-3 row-start-2"// transition-all duration-500";
   let cardStyles = [firstCard, secondCard, thirdCard, fourthCard];
   // let clearLayer = "absolute h-full w-full left-0 top-0 bg-black bg-opacity-0";
   let dimLayer = "absolute h-full w-full left-0 top-0 bg-black pointer-events-none";
@@ -27,7 +27,7 @@ export default function LayoutCards() {
 
 
   return (
-    <div className="w-full p-12 grid grid-cols-5 grid-rows-2 gap-6">
+    <div className="w-full pt-12 px-12 grid grid-cols-5 grid-rows-2 gap-6">
       {cards.map((card, i) => (
         <motion.div 
           layout
@@ -66,7 +66,7 @@ export default function LayoutCards() {
                 transition={{duration: .5, delay: .3}}
               
               >
-                <h1 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white text-center mx-4 mb-5 italic'>{card.title}</h1>
+                <h1 className='text-xl md:text-xl lg:text-2xl xl:text-3xl text-white text-center mx-4 mb-5 italic'>{card.title}</h1>
                 <div className="flex">
                 {card.stack.map((icon, i) => (<IconWrapper>{icon}</IconWrapper>))}
                 </div>
