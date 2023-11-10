@@ -3,7 +3,7 @@ export const experiences = [
     id: 0,
     title: "Akuna Capital",
     subtitle: "Quant Dev Intern",
-    date: "Starting May 2024",
+    date: "Starting June 2024",
     description: [
       "Help generate profit"
     ]
