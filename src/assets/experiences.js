@@ -1,6 +1,15 @@
 export const experiences = [
   {
     id: 0,
+    title: "Akuna Capital",
+    subtitle: "Quant Dev Intern",
+    date: "Starting May 2024",
+    description: [
+      "Help generate profit"
+    ]
+  },
+  {
+    id: 1,
     title: "Stackend Solutions",
     subtitle: "Software Engineer",
     date: "November 2022 - Present",
@@ -11,7 +20,7 @@ export const experiences = [
     ]
   },
   {
-    id: 1,
+    id: 2,
     title: "Quant @ Illinois",
     subtitle: "Head of Trading",
     date: "September 2022 - Present",
@@ -22,7 +31,7 @@ export const experiences = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "OTCR Consulting",
     subtitle: "Consultant",
     date: "September 2022 - May 2023",
