@@ -40,7 +40,7 @@ export default function HomeMobile() {
       animate={{ opacity: 1 , y: 0}}
       transition={{duration: 1, delay: 1}}>
         {/* <h2 className="text-black text-xl lg:text-2xl xl:text-4xl leading-tight">`</h2> */}
-        <a className="group text-white text-2xl xl:text-4xl leading-tight cursor-pointer transition-all duration-500" href='https://docs.google.com/document/d/1XNasiMB2pQxMYg6iOU9rWfSm-mKl-WnGxtK1HE89a-E/edit'>My Resume<span><BsArrowUpRight className='inline'/></span><span className='block max-w-0 ms-[50%] group-hover:max-w-full group-hover:ms-0 transition-all duration-300 h-0.5 bg-white'></span></a>
+        <a className="group text-white text-2xl xl:text-4xl leading-tight cursor-pointer transition-all duration-500" href='https://drive.google.com/file/d/1fA7zsFEybFsy9vDUW-Ldxq9hWufqonYm/view?usp=sharing'>My Resume<span><BsArrowUpRight className='inline'/></span><span className='block max-w-0 ms-[50%] group-hover:max-w-full group-hover:ms-0 transition-all duration-300 h-0.5 bg-white'></span></a>
       </motion.div>
     </div>
 

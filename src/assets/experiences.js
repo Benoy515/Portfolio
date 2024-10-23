@@ -1,15 +1,26 @@
 export const experiences = [
   {
     id: 0,
-    title: "Akuna Capital",
-    subtitle: "Quant Dev Intern",
-    date: "Starting June 2024",
+    title: "IMC Trading",
+    subtitle: "Software Engineering Intern",
+    date: "Starting June 2025",
     description: [
-      "Help generate profit"
+      "Trading execution optimization in C++"
     ]
   },
   {
     id: 1,
+    title: "Akuna Capital",
+    subtitle: "Quantitative Development Intern",
+    date: "June 2024 - August 2024",
+    description: [
+      "Developed a Jupyter notebook dashboard to assess beta (risk) model accuracy by comparing bivariate distributions from model predicted covariances against realized delta neutral PnL data from paired option positions.",
+      "Used dashboard to analyze live strategies for the Volatility Strategies desk and provide insights on how to specialize each model for certain products, periods of volatility, strike ranges, and expiries.",
+      "Wrote type annotated and highly scaleable code while contributing to Akuna’s internal libraries and applying NumPy, Pandas, SciPy, and Akuna’s libraries for data handling, model integration, and computation."
+    ]
+  },
+  {
+    id: 2,
     title: "Stackend Solutions",
     subtitle: "Software Engineer",
     date: "November 2022 - Present",
@@ -20,7 +31,7 @@ export const experiences = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Quant @ Illinois",
     subtitle: "Head of Trading",
     date: "September 2022 - Present",
@@ -31,7 +42,7 @@ export const experiences = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "OTCR Consulting",
     subtitle: "Consultant",
     date: "September 2022 - May 2023",
